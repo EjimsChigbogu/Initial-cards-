@@ -6,45 +6,17 @@
 
 body {
   font-family: 'Muli', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
   margin: 0;
-}
-
-.header-text{
-    text-align: center;
-
-}
-
-.header-text h2{
-    font-weight: 500;
-}
-.header-text h5 a{
-    font-size: 18px;
-    cursor: pointer;
-    text-decoration: none;
-    background-color: rgb(255, 255, 255);
-    padding: 5px 20px;
-    border-radius: 20px;
-    color: rgb(0, 0, 0);
-    border: 1px solid black;
-    transition: 0.5s all ease-in-out;
-    
-}
-.header-text h5 a:hover{
-    background-color: rgb(55, 121, 175);
-    color: white;
-    border: 1px solid rgb(55, 121, 175);
-}
-.header-text h5 a i:hover{
-s
 }
 
 .container {
   display: flex;
-  width : 80vw;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  align-self:center;
+  width: 90vw;
 }
 
 .panel {
@@ -63,7 +35,6 @@ s
 
 .panel h3 {
   font-size: 24px;
-  font-weight: 500;
   position: absolute;
   bottom: 20px;
   left: 20px;
